@@ -1,125 +1,144 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="description" content="Homepage of ACSS Site">
-		<meta name="keywords" content="HTML,CSS,JavaScript">
-		<meta name="author" content="ACSS">
-        <title>ACSS : Homepage</title>
-
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--Import Google Icon Font-->
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-        <!--Rosario Font-->
-		<link href='https://fonts.googleapis.com/css?family=Rosario:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-        <!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/reset.css" media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-		<style>
-			div {
-				display:block;
-			}
-			.container {
-				height: 90%;
-			}
-			body {
-				height:100%;
-				background-image: url("./img/bg.jpg");
-				background-attachment: fixed;
-			}
-			.slider .indicators .indicator-item {
-			  background-color: #666666;
-			  border: 3px solid #ffffff;
-			  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-			  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-			  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-			}
-			.slider .indicators .indicator-item.active {
-			  background-color: #ffffff;
-			}
-			.slider {
-			  width: 900px;
-			  margin: 0 auto;
-			}
-			.slider .indicators {
-			  bottom: 60px;
-			  z-index: 100;
-			  /* text-align: left; */
-			}
-		</style>
-    </head>
-
-
-    <body>
-		<div class="navbar-fixed">
-			<nav class="transparent">
-				<div class="container">
-					<div class="nav-wrapper">
-						<a href="#!"class="brand-logo">Alliance of Computer Science Students</a>
-						<a href="#!"><img width="50px" height="50px" src="./img/seal-notext.png">University of the Philippines Los Banos</img></a>
-					</div>	
-				</div>
-			  </nav>
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="css/reset.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<title></title>
+	<style type="text/css">
+		html, body{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 100%;
+		}
+		body{
+			background-color: black;
+		}
+		.button-collapse {
+			position: relative;
+			float: bottom;
+		}
+		.row {
+			position: relative;
+			min-height: 100%;
+		}
+		.slider {
+			position: relative;
+			float: right;
+			margin-top: 5%;
+		}
+		#container-fluid {
+			margin: auto;
+			position: relative;
+			height: 95%;
+			width: 95%;
+		}
+		#main-container{
+			height: 85%;
+			width: 100%;
+			display: block;
+			position: relative;
+		}
+		#logo-container {
+			position:relative;
+			height: 15%;
+			width: 100%;
+			display: block;
+		}
+		#logo {
+			position: relative;
+			display: block;
+			width:75%;
+			margin: 10% 0px 0px 0px; 
+			float: right;
+		}
+		#org {
+			position: absolute;
+			float: left;
+			margin-top: 10px;
+			display: inline-block;
+		}
+		#sidebar-div {
+			position: relative;
+			display: block;
+			min-height: 500px;
+		}
+		#sidebar-div>div {
+			position: absolute;
+			display: block;
+			bottom:0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container" id="logo-container">
+		<div class="row">
+			<div class="col s1">
+				<a href="!#"><img src="./img/seal-notext.png" id="logo" alt="ACSS"></img></a>
+			</div>
+			<div class="col s11" id="org">
+				<font color="white">
+					<h5>Alliance of Computer Science Students </h5>
+					<h6> University of the Philippines - Los Banos </h6>
+				</font>
+			</div>
 		</div>
+	</div>
+	
+	<div class="container" id="main-container">
+		<div class="container" id="container-fluid">
 			<div class="row">
-				<div class="col s2">
-				<p>&nbsp;</p>
-				
- <ul id="slide-out" class="side-nav">
-      <li><a href="#!">First Sidebar Link</a></li>
-      <li><a href="#!">Second Sidebar Link</a></li>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+			
+				<div class="col s1" id="sidebar-div">
+					<div>
+						<a href="#" data-activates="slide-out" class="button-collapse"><i class="small mdi-navigation-menu"></i></a>
+					</div>
 				</div>
-				<div class="col s10">
-					 <div class="slider">
+				
+				<div class="col s11">
+					<div class="slider">
 						<ul class="slides">
 						  <li>
-							<img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+							<img src="https://scontent-hkg3-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/17712_10204577263177542_4728600726936575521_n.jpg?oh=26baf0a9ad061ad5822167c57fb087e2&oe=57074569"> <!-- random image -->
 							<div class="caption center-align">
-							  <h3>This is our big Tagline!</h3>
-							  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 							</div>
 						  </li>
 						  <li>
-							<img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+							<img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpl1/v/t1.0-9/11111043_10204562406886144_5564626139470128225_n.jpg?oh=d92ba500cb1d6e98dafb20d39e7fe609&oe=5709E36D&__gda__=1464142935_9c294e587ac66df1432219be9b72c84c"> <!-- random image -->
 							<div class="caption left-align">
-							  <h3>Left Aligned Caption</h3>
-							  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 							</div>
 						  </li>
 						  <li>
-							<img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+							<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/11949393_1038789842819140_5175429008820090296_n.jpg?oh=3a1744431ab7b387597a9b279fee97b0&oe=570F7CCA&__gda__=1460636832_5df7793389875a4b62ba562aeadfc351"> <!-- random image -->
 							<div class="caption right-align">
-							  <h3>Right Aligned Caption</h3>
-							  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 							</div>
 						  </li>
 						  <li>
-							<img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+							<img src="https://scontent-hkg3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/10152415_10202014668554278_7232323463892614716_n.jpg?oh=93ecfba49fd3aded9faf5f447ebbaee4&oe=571430A9"> <!-- random image -->
 							<div class="caption center-align">
-							  <h3>This is our big Tagline!</h3>
-							  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 							</div>
 						  </li>
 						</ul>
-					  </div>
-				</div>
-			</div>	
-        <!--Import jQuery before materialize.js-->
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.js"></script>
-		<script>
-			$('.slider').slider({
-				full_width: true,
-				interval: 500
-			});
-			$(".button-collapse").sideNav();
-        </script>
-    </body>
+					</div>
+				<div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+	<script>
+		$('.slider').slider({
+			full_width: true,
+			interval: 500
+		});
+		
+		$('.button-collapse').sideNav({
+			 menuWidth: 300, // Default is 240
+			 edge: 'right', // Choose the horizontal origin
+		  closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+		});
+	</script>
+</body>
 </html>
