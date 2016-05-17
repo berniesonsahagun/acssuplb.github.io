@@ -17,6 +17,12 @@ div#background {
 	filter: blur(5px);
 }
 
+img#logo {
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+
 div#wrapper {
 	position: absolute;
 	left: 50%;
