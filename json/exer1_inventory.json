@@ -1,20 +1,20 @@
 [
 	{
-		"name": "Strepsils",
+		"name": "Biogesic",
 		"price": 87.50,
 		"quantity": 10,
 		"img_file": "../assets/img/item/strepsils.jpg",
 		"img_file2": "assets/img/item/strepsils.jpg"
 	},
 	{
-		"name": "Chickenjoy",
+		"name": "Almonds",
 		"price": 90.00,
 		"quantity": 15,
 		"img_file": "../assets/img/item/chickenjoy.jpg",
 		"img_file2": "assets/img/item/chickenjoy.jpg"
 	},
 	{
-		"name": "Big Mac",
+		"name": "A Very Very Big Meal",
 		"price": 120.00,
 		"quantity": 8,
 		"img_file": "../assets/img/item/big_mac.jpg",
