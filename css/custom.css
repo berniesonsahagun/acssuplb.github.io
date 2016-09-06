@@ -1,0 +1,75 @@
+/* PROBLEM FORUM CUSTOM CSS */
+
+body{
+	background-color: black;
+	/*padding-top: 5%;*/
+	color: white;
+}
+
+img.center_image{
+	display: block;
+	margin: auto;
+	border: 0;
+	width: 50%;
+}
+
+img.footer-img{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border: 0;
+}
+
+img#logo {
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+
+.nav-button{
+	top: 25px;
+	left: 25px;
+}
+
+#particles-js{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+#section-1{
+	padding-top: 5%;
+	vertical-align: middle;
+	position: relative;
+	height: 100vh;
+}
+
+#section-2{
+	background-color: #d35400;
+	height: 100vh;
+	z-index: 2;
+}
+
+.extra-padding{
+
+}
+
+#section-3{
+	position: relative;
+	height: 100vh;
+}
+
+.card{
+	/*width: 50vh;*/
+	padding: 5%;
+}
+
+.rotate{
+	width: 100%;
+	position: absolute;
+	top: -0;
+	border: 0;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
