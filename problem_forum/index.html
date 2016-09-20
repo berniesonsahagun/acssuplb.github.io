@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>ACSS :: Problem Forum</title>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link type="text/css" rel="stylesheet" href="../css/materialize.min.css"/>
 	<link type="text/css" red="stylesheet" href="../css/particle.css">
 	<link type="text/css" rel="stylesheet" href="../css/custom.css"/>
@@ -18,116 +18,135 @@
 	<div id="particles-js"></div>
 
 	<!-- NAV SCROLLSPY -->
-	<div class="row" >
+	<div class="row">
 		<div class="col hide-on-small-only l12" style="position: fixed; z-index: 5;">
 			<ul class="table-of-contents">
-				<li><a href="#section-1">Section 1</a></li>
-				<li><a href="#container-section-2">Section 2</a></li>
-				<li><a href="#section-3">Section 3</a></li>
+				<li><a href="#section-1">Landing Page </a></li>
+				<li><a href="#section-2">About the Problem Forum</a></li>
+				<li><a href="#container-section-2">Speakers</a></li>
+				<li><a href="#container-section-3">Pre-registratiom Form</a></li>
 			</ul>
 		</div>
 	</div>
 
-	<!-- WELCOME SECTION -->
-	<div id="section-1" class="section scrollspy">
-		<div class="container">
-			<div class="row">
-				<div class="col offset-l5 offset-s3 l1">
-					LOGO HERE
+	<div class="main-container">
+		<!-- WELCOME SECTION -->
+		<div id="section-1" class="section scrollspy">
+			<div class="container center">
+				<div class="row">
+					<div class="col s2" id="acss-logo-here">
+						<img src="../img/logo.png" class="acss-logo"/>
+					</div>
+					<div class="col s8">
+						Problem Forum:
+					</div>
+					<div class="col s2" id="8layer-logo-here">
+						<img src="../img/logo.png" class="acss-logo"/>
+					</div>
 				</div>
-				<div class="col l2 s6">
-					Problem Forum:
-					Internet of Things
+				<div class="row">
+					<div class="col s12">
+						Internet of Things
+					</div>
+					<div class="col s12" id="nav-buttons">
+					</div>
 				</div>
+			</div>	
+			<img src="../img/footer-img.png" class="footer-img">
+		</div>
+		
+		<!-- INFO SECTION -->
+		<div id="section-2" class="section scrollspy" style="color: black;">
+			<div class="container">
+				ACSS x 8Layer <br>
+				Problem Forum:
 			</div>
-		</div>	
-		<img src="../img/footer-img.png" class="footer-img">
-	</div>
-	
-	<!-- INFO SECTION -->
-	<div id="section-2" class="" style="color: black;">
-		<div id="container-section-2" class="container" id="main-container">
-			<div class="row section scrollspy" id="container-section-2">
-		        <div class="col s4 m4">
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-orange">
-							<img class ="activator" src="../img/logo.png">
-							<span class="card-title activator">Card Title</span>
-						</div>
-						<div class="card-content">
-							<p>
-								I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.
-							</p>
-						</div>
-						<div class="card-action">
-							<a href="#">This is a link</a>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-							<p>Here is some more information about this product that is only revealed once clicked on.</p>
-						</div>
-					</div>
-		        </div>
-		        <div class="col s4 m4">
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-orange">
-							<img class ="activator" src="../img/logo.png">
-							<span class="card-title activator">Card Title</span>
-						</div>
-						<div class="card-content">
-							<p>
-								I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.
-							</p>
-						</div>
-						<div class="card-action">
-							<a href="#">This is a link</a>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-							<p>Here is some more information about this product that is only revealed once clicked on.</p>
-						</div>
-					</div>
-		        </div>
-		        <div class="col s4 m4">
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-orange">
-							<img class ="activator "src="../img/logo.png">
-							<span class="card-title activator">Card Title</span>
-						</div>
-						<div class="card-content">
-							<p>
-								I am a very simple card. I am good at containing small bits of information.
-								I am convenient because I require little markup to use effectively.
-							</p>
-						</div>
-						<div class="card-action">
-							<a href="#">This is a link</a>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-							<p>Here is some more information about this product that is only revealed once clicked on.</p>
-						</div>
-					</div>
-		        </div>
 
-		    </div>
 		</div>
-	</div>
 
-	<!-- PRE REGISTRATION SETION -->
-	<div id="section-3" class="section scrollspy">
-		<div>
-			<img src="../img/footer-img.png" class="rotate">
+		<!-- SPEAKERS SECTION -->
+		<div id="section-2" class="" style="color: black;">
+			<div class="container" id="main-container">
+				Speakers
+				<div class="row" >
+			        <div class="col s4 m4">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-orange">
+								<img class ="activator" id="container-section-2" src="../img/logo.png">
+								<span class="card-title activator scrollspy section" id="container-section-2">Card Title</span>
+							</div>
+							<div class="card-content">
+								<p>
+									
+								</p>
+							</div>
+							<div class="card-action">
+								<a href="#">This is a link</a>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+			        </div>
+			        <div class="col s4 m4">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-orange">
+								<img class ="activator" src="../img/logo.png">
+								<span class="card-title activator">Card Title</span>
+							</div>
+							<div class="card-content">
+								<p>
+									
+								</p>
+							</div>
+							<div class="card-action">
+								<a href="#">This is a link</a>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+			        </div>
+			        <div class="col s4 m4">
+						<div class="card">
+							<div class="card-image waves-effect waves-block waves-orange">
+								<img class ="activator "src="../img/logo.png">
+								<span class="card-title activator">Card Title</span>
+							</div>
+							<div class="card-content">
+								<p>
+									
+								</p>
+							</div>
+							<div class="card-action">
+								<a href="#">This is a link</a>
+							</div>
+							<div class="card-reveal">
+								<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+								<p>Here is some more information about this product that is only revealed once clicked on.</p>
+							</div>
+						</div>
+			        </div>
+
+			    </div>
+			</div>
 		</div>
-	</div>
 
-	<!-- FOOTER -->
-	<div class="footer-copyright">
-		<div class="container">
-			(c) 2014 Copyright Text
-			<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+		<!-- PRE REGISTRATION SETION -->
+		<div class="" id="section-3">
+			<div>
+				<img src="../img/footer-img.png" class="rotate">
+			</div>
+		</div>
+
+		<!-- FOOTER -->
+		<div class="footer-copyright section scrollspy" id="container-section-3">
+			<div class="container">
+				(c) 2014 Copyright Text
+				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+			</div>
 		</div>
 	</div>
 

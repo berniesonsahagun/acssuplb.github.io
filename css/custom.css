@@ -6,11 +6,20 @@ body{
 	color: white;
 }
 
+.main-container{
+	width: 100%;
+}
+
 img.center_image{
 	display: block;
 	margin: auto;
 	border: 0;
 	width: 50%;
+}
+
+img.acss-logo{
+	display:block;
+	width: 150%;
 }
 
 img.footer-img{
@@ -42,7 +51,7 @@ img#logo {
 	padding-top: 5%;
 	vertical-align: middle;
 	position: relative;
-	height: 100vh;
+	height: 95vh;
 }
 
 #section-2{
@@ -62,7 +71,7 @@ img#logo {
 
 .card{
 	/*width: 50vh;*/
-	padding: 5%;
+	/*padding: 5%;*/
 }
 
 .rotate{
