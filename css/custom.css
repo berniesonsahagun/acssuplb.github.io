@@ -1,5 +1,20 @@
 /* PROBLEM FORUM CUSTOM CSS */
 
+/* FONTS HERE */
+@font-face {
+  font-family: 'Brusher';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/Brusher.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Axis';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/axis.otf") format("opentype");
+}
+
 body{
 	background-color: black;
 	/*padding-top: 5%;*/
@@ -19,7 +34,7 @@ img.center_image{
 
 img.acss-logo{
 	display:block;
-	width: 150%;
+	width: 100%;
 }
 
 img.footer-img{
@@ -47,21 +62,59 @@ img#logo {
 	z-index: -1;
 }
 
+/* SECTION 1 CSS */
 #section-1{
 	padding-top: 5%;
 	vertical-align: middle;
 	position: relative;
-	height: 95vh;
+	height: 100vh;
 }
 
+#title{
+	font-family: 'Axis' !important;
+	font-size: 2em;
+	color: #494448;
+}
+
+#title-body{
+	font-family: 'Brusher' !important;
+	font-size: 3em;
+	color: white;
+}
+
+.opaque{
+	background-color: white;
+}
+
+.btn-flat{
+	color: white;
+}
+
+/* SECTION 2 CSS */
 #section-2{
 	background-color: #d35400;
-	height: 100vh;
+	/*height: 100vh;*/
 	z-index: 2;
+}
+
+#yiz-sec-2{
+	background-color: #d35400;
+	height: 100%;
+	z-index: 2;
+	margin: 0;
+}
+
+.header-title{
+	height: 20vh;
+	vertical-align: middle;
 }
 
 .extra-padding{
 
+}
+
+.picture{
+	width: 40%;
 }
 
 #section-3{
@@ -74,6 +127,15 @@ img#logo {
 	/*padding: 5%;*/
 }
 
+.speaker-div{
+	background-color: #D1661F;
+	border: 1px dashed;
+	border-left: 7px solid;
+	border-color: white;
+	padding: 40px !important;
+	margin-bottom: 30px;
+}
+
 .rotate{
 	width: 100%;
 	position: absolute;
@@ -82,3 +144,5 @@ img#logo {
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
+
+
