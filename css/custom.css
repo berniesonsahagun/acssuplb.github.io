@@ -21,6 +21,10 @@ body{
 	color: white;
 }
 
+.table-of-contents a{
+	color: white;
+}
+
 .main-container{
 	width: 100%;
 }
